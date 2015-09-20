@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eval", "Eval\Eval.csproj", "{14CB6FCF-8651-4ECE-87A4-1604879A30C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eval.UnitTest", "Eval.UnitTest\Eval.UnitTest.csproj", "{A105224A-E51B-4E13-8F89-170400DB6D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14CB6FCF-8651-4ECE-87A4-1604879A30C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CB6FCF-8651-4ECE-87A4-1604879A30C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CB6FCF-8651-4ECE-87A4-1604879A30C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CB6FCF-8651-4ECE-87A4-1604879A30C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A105224A-E51B-4E13-8F89-170400DB6D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A105224A-E51B-4E13-8F89-170400DB6D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A105224A-E51B-4E13-8F89-170400DB6D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A105224A-E51B-4E13-8F89-170400DB6D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
