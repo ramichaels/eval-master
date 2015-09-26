@@ -11,15 +11,12 @@ namespace Eval
             return odds;
         }
 
-        public static IEnumerable<int> GetPositiveIntegers()
+        public static IEnumerable<int> GetPositiveIntegers(int begin, int end)
         {
-            List<int> positiveIntegers = new List<int>();
-
-            for (int i = 1; i <= 100; i++)
+            for (int i = begin; i <= end; i++)
             {
-                positiveIntegers.Add(i);
+                yield return i;
             }
-            return positiveIntegers;
 
         }
     }
